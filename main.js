@@ -70,7 +70,7 @@ function getAPI(e) {
 }
 
 function getWheather(city, countryCode) {
-    const api = 'http://api.openweathermap.org/data/2.5/find?q=';
+    const api = 'https://api.openweathermap.org/data/2.5/find?q=';
     const units = '&units=metric';
     const apiKey = '&appid=d0fd632de5a6a004c911c07e43f9fc2a';
     let link = api + city + ',' + countryCode + units + apiKey;
