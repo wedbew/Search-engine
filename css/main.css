@@ -21,11 +21,20 @@
 
 #flag {
     width: 64px;
+}
+
+.rounded-corners {
     border-radius: .3em;
     border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-#exchange {
-    border-radius: .3em;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+.carousel-image {
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .submit-button {
+        margin-top: 1.5em;
+    }
 }
